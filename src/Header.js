@@ -20,7 +20,6 @@ class Header extends Component {
                             <h1 className="nav-item">Contact me</h1>
                         </Link>
                     </nav>
-                    <h1>Ryson Shalvis</h1>
                 </header>
             
         );

@@ -2,6 +2,7 @@
 header {
     position: fixed;
     width: 100%;
+    z-index: 10;
 }
 .header-container {
     display: flex;
@@ -34,4 +35,29 @@ a {
     width: 60%;
     margin-top: 3%;
     font-size: 25px;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 200px;
+}
+
+.image-container {
+    margin: 20px;
+}
+
+.image {
+    height: 300px;
+    padding: 5px;
+    border: 3px solid #555
+}
+
+.image-text {
+    color: black;
+    margin: 20px auto;
+    text-align: center;
+    text-decoration: underline;
 }
