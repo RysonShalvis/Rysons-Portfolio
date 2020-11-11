@@ -4,7 +4,7 @@ import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Projects from './Projects';
 import AboutMe from './AboutMe';
-import Skills from './Skills';
+import Contact from './Contact';
 import Home from './Home'
 
 class App extends React.Component {
@@ -17,7 +17,7 @@ class App extends React.Component {
             <Route path="/" exact component={Home} />
             <Route path="/about" exact component={AboutMe} />
             <Route path="/projects" exact component={Projects} />
-            <Route path="/skills" exact component={Skills} />
+            <Route path="/contact" exact component={Contact} />
           </Router>
         </div>
       

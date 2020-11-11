@@ -16,11 +16,11 @@ class Header extends Component {
                         <Link to='/projects'>
                             <h1 className="nav-item">Projects</h1>
                         </Link>
-                        <Link to='/skills'>
-                            <h1 className="nav-item">Skills</h1>
+                        <Link to='/contact'>
+                            <h1 className="nav-item">Contact me</h1>
                         </Link>
                     </nav>
-                    
+                    <h1>Ryson Shalvis</h1>
                 </header>
             
         );
