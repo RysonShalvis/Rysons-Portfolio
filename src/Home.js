@@ -4,7 +4,7 @@ class Home extends Component {
     render() {
         return (
             <div>
-                <h1 className="page">Home Page</h1>
+                <h1 className="page">Summary</h1>
                 <p className="page home-summary">Hello, My Name is Ryson Shalvis. I am a Web Developer and my main focus
                      is JavaScript and React.
                     I am also comfortable with CSS3 and HTML5. I learned to code using Codecademy and friends. For the
