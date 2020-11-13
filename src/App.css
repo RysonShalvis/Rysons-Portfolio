@@ -61,3 +61,22 @@ a {
     text-align: center;
     text-decoration: underline;
 }
+
+.trick-image-gallery {
+    width: 75%;
+    margin: 200px auto;
+}
+
+.trick-image-container {
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.trick-image-container img {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    border: 3px solid black;
+}
+

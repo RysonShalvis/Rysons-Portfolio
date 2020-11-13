@@ -9,7 +9,7 @@ class Projects extends Component {
                 <h1 className="page">Projects Page</h1>
                 <div className="projects image-gallery">
                     <div className="image-container">
-                        <Link to="/projects/trick">
+                        <Link to="/projects/trick-creator">
                             <h1 className="image-text">Trick Creator</h1>
                             <img className="image" alt="trick-creator" src={screenshot} />
                         </Link>

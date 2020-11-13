@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Projects from './Projects';
 import AboutMe from './AboutMe';
 import Contact from './Contact';
+import TrickCreator from './TrickCreator';
 import Home from './Home'
 
 class App extends React.Component {
@@ -18,6 +19,7 @@ class App extends React.Component {
             <Route path="/about" exact component={AboutMe} />
             <Route path="/projects" exact component={Projects} />
             <Route path="/contact" exact component={Contact} />
+            <Route path="/projects/trick-creator" exact component={TrickCreator} />
           </Router>
         </div>
       
