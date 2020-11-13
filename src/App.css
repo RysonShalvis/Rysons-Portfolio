@@ -90,3 +90,11 @@ a {
     margin-top: 20px;
 }
 
+.contact-container {
+    width: 75%;
+    margin: auto;
+}
+
+.contact-info {
+    text-align: left;
+}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import trickPic from './Images/Trick-creator-screen-shots/Trick-screen-1.png';
+import trickPic from './Images/Trick-creator-screen-shots/Trick-screen-4.png';
 import invisonPic from './Images/invision-clone-screenshots/invision-1.png';
 import { Link } from 'react-router-dom';
 
