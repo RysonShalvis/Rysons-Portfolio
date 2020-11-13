@@ -7,6 +7,7 @@ import AboutMe from './AboutMe';
 import Contact from './Contact';
 import TrickCreator from './TrickCreator';
 import Home from './Home'
+import InvisionClone from './InvisionClone';
 
 class App extends React.Component {
   render() {
@@ -20,6 +21,7 @@ class App extends React.Component {
             <Route path="/projects" exact component={Projects} />
             <Route path="/contact" exact component={Contact} />
             <Route path="/projects/trick-creator" exact component={TrickCreator} />
+            <Route path="/projects/invision-clone" exact component={InvisionClone} />
           </Router>
         </div>
       
