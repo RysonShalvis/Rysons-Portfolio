@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
+import me from './Images/me/ME.jpg'
 
 class Home extends Component {
     render() {
         return (
             <div>
+                <img className="me" alt="me" src={me} />
                 <h1 className="page">Summary</h1>
                 <p className="page home-summary">Hello, My Name is Ryson Shalvis. I am a Web Developer and my main focus
                      is JavaScript and React.
-                    I am also comfortable with CSS3 and HTML5. I learned to code using Codecademy and friends. For the
+                    I am also comfortable with CSS3 and HTML5. I learned to code using Codecademy and the help of friends.
+                    For the
                     last six months, I have coded every chance I get; At work during lunch and on breaks, as soon as I 
                     get home up until bed time, and any free time I get. I have sacrifced many hours and fun actvities 
                     to get a job I love doing! I will get frustrated and stuck on something and it can be a real pain, 

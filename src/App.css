@@ -35,6 +35,9 @@ a {
     width: 60%;
     margin-top: 3%;
     font-size: 25px;
+    text-align: left;
+    position: relative;
+    left: 15px;
 }
 
 .image-gallery {
@@ -98,4 +101,12 @@ a {
 
 .contact-info {
     text-align: left;
+}
+
+.me {
+    margin: 150px 50px;
+    height: 30%;
+    border-style: solid;
+    border-radius: 100%;
+    position: absolute;
 }
