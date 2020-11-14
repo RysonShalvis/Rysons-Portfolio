@@ -11,9 +11,9 @@ class InvisionClone extends Component {
             <div>
                 <h1 className="page">Invision Clone</h1>
                 <p className="page github-link">
-                    <a target ="_blank" href="https://www.github.com/rysonshalvis/invision-clone">Click here for the github link</a>
+                    <a target ="_blank" rel="noreferrer" href="https://www.github.com/rysonshalvis/invision-clone">Click here for the github link</a>
                 </p>
-                <p style={{width: '75%'}} className="page trick-summary" >I created the game. A challenge I faced was getting it to work. I used an array of objects to 
+                <p className="page trick-summary" >I created the game. A challenge I faced was getting it to work. I used an array of objects to 
                     store all the different tricks. I am just putting in filler words for now so don't judge.
                     I used React for this project. It was challenging because it was my first React Project.
                     Lorem ipsum, don't remember the rest.
@@ -24,7 +24,7 @@ class InvisionClone extends Component {
                 </p>
                 <div className="invision-image-gallery">
                     <div className="invision-image-container">
-                        <h1>A clone of the front page of <a target="_blank" href="https://www.invisionapp.com">www.invisionapp.com</a></h1>
+                        <h1>A clone of the front page of <a target="_blank" rel="noreferrer" href="https://www.invisionapp.com">www.invisionapp.com</a></h1>
                         <img src={invision1} alt="invision 1" />
                     </div>
                     <div className="invision-image-container">

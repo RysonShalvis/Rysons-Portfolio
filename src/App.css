@@ -62,18 +62,18 @@ a {
     text-decoration: underline;
 }
 
-.trick-image-gallery, .invision-image-gallery {
+.trick-image-gallery, .invision-image-gallery, .rps-image-gallery {
     width: 75%;
     margin: 200px auto;
 }
 
-.trick-image-container, .invision-image-container {
+.trick-image-container, .invision-image-container, .rps-image-container {
     width: 100%;
-    margin: 40px auto;
+    margin: 75px auto;
     text-align: center;
 }
 
-.trick-image-container img, .invision-image-container img {
+.trick-image-container img, .invision-image-container img, .rps-image-container img {
     width: 100%;
     margin: auto;
     padding: 20px;
@@ -84,6 +84,7 @@ a {
     margin-top: 20px;
     font-family: italic;
     font-size: 1.5em;
+    width: 75%;
 }
 
 .github-link {

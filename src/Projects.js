@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import trickPic from './Images/Trick-creator-screen-shots/Trick-screen-4.png';
 import invisonPic from './Images/invision-clone-screenshots/invision-1.png';
+import rpsPic from './Images/rps-screenshots/rps-1.png';
 import { Link } from 'react-router-dom';
 
 class Projects extends Component {
@@ -24,7 +25,7 @@ class Projects extends Component {
                     <div className="image-container">
                         <Link to="/projects/rock-paper-scissors">
                             <h1 className="image-text">Rock, Paper, Scissors</h1>
-                            <img className="image" alt="trick-creator" src={trickPic} />
+                            <img className="image" alt="trick-creator" src={rpsPic} />
                         </Link>
                     </div>
                     <div className="image-container">

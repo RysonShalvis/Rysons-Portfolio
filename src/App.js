@@ -8,6 +8,7 @@ import Contact from './Contact';
 import TrickCreator from './TrickCreator';
 import Home from './Home'
 import InvisionClone from './InvisionClone';
+import RPS from './RPS';
 
 class App extends React.Component {
   render() {
@@ -22,6 +23,7 @@ class App extends React.Component {
             <Route path="/contact" exact component={Contact} />
             <Route path="/projects/trick-creator" exact component={TrickCreator} />
             <Route path="/projects/invision-clone" exact component={InvisionClone} />
+            <Route path="/projects/rock-paper-scissors" exact component={RPS} />
           </Router>
         </div>
       
