@@ -24,23 +24,23 @@ class RPS extends Component {
                 </p>
                 <div className="rps-image-gallery">
                     <div className="rps-image-container">
-                        <h1>Play Rock, Paper, Scissors against the Computer.</h1>
+                        <h1 className="image-text" >Play Rock, Paper, Scissors against the Computer.</h1>
                         <img src={Rps1} alt="Rps 1" />
                     </div>
                     <div className="rps-image-container">
-                        <h1>Pick between Rock, Paper or Scissors to defeat your opponent!</h1>
+                        <h1 className="image-text" >Pick between Rock, Paper or Scissors to defeat your opponent!</h1>
                         <img src={Rps2} alt="Rps 2" />
                     </div>
                     <div className="rps-image-container">
-                        <h1>Keep track of all of your stats like your total wins and your best streak.</h1>
+                        <h1 className="image-text" >Keep track of all of your stats like your total wins and your best streak.</h1>
                         <img src={Rps3} alt="Rps 3" />
                     </div>
                     <div className="rps-image-container">
-                        <h1>An interactive rating system that lets you change your rating!</h1>
+                        <h1 className="image-text" >An interactive rating system that lets you change your rating!</h1>
                         <img src={Rps4} alt="Rps 4" />
                     </div>
                     <div className="rps-image-container">
-                        <h1>See every rating that has been submitted.</h1>
+                        <h1 className="image-text" >See every rating that has been submitted.</h1>
                         <img src={Rps5} alt="Rps 5" />
                     </div>
                 </div>

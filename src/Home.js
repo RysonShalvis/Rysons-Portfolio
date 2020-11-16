@@ -5,7 +5,7 @@ class Home extends Component {
     render() {
         return (
             <div className="home-container">
-                <img className="me page" alt="me" src={me} />
+                <img className="me-image page" alt="me" src={me} />
                 <div className="summary-container">
                     <h1 className="page">Summary</h1>
                     <p className="page home-summary">Hello, My Name is Ryson Shalvis. I am a Web Developer and my main focus

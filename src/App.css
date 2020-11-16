@@ -1,3 +1,16 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+
+html { 
+  background: url('./Images/background-images/Background-image-orange.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 
 header {
     position: fixed;
@@ -25,7 +38,7 @@ a {
 
 .page {
     top: 125px;
-    color: black;
+    color: white;
     position: relative;
     margin: auto;
     text-align: center;
@@ -38,6 +51,7 @@ a {
     text-align: left;
     position: relative;
     left: 15px;
+    color: white;
 }
 
 .image-gallery {
@@ -55,7 +69,7 @@ a {
 .image {
     height: 300px;
     padding: 5px;
-    border: 3px solid #555
+    border: 3px solid #555;
 }
 
 .image-text {
@@ -103,11 +117,13 @@ a {
     text-align: left;
 }
 
-.me {
+.me-image {
+    margin-left: 100px;
     width: 25%;
     height: 25%;
-    border-style: solid;
+    border: 1px solid white;
     border-radius: 100%;
+    
 }
 
 .home-container {
@@ -116,4 +132,8 @@ a {
     display: flex;
     justify-content: space-around;
 
+}
+
+.image-text {
+    color: white;
 }

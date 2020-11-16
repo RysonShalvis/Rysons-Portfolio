@@ -24,7 +24,7 @@ class InvisionClone extends Component {
                 </p>
                 <div className="invision-image-gallery">
                     <div className="invision-image-container">
-                        <h1>A clone of the front page of <a target="_blank" rel="noreferrer" href="https://www.invisionapp.com">www.invisionapp.com</a></h1>
+                        <h1 className="image-text" >A clone of the front page of <a target="_blank" rel="noreferrer" href="https://www.invisionapp.com">www.invisionapp.com</a></h1>
                         <img src={invision1} alt="invision 1" />
                     </div>
                     <div className="invision-image-container">

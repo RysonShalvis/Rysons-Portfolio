@@ -25,27 +25,27 @@ class TrickCreator extends Component {
                 </p>
                 <div className="trick-image-gallery">
                     <div className="trick-image-container">
-                        <h1>The goal of the game is to create every possible trick combination.</h1>
+                        <h1 className="image-text" >The goal of the game is to create every possible trick combination.</h1>
                         <img src={trick1} alt="trick 1" />
                     </div>
                     <div className="trick-image-container">
-                        <h1>Here we are combining a 180 with a 180. What will it make?</h1>
+                        <h1 className="image-text" >Here we are combining a 180 with a 180. What will it make?</h1>
                         <img src={trick2} alt="trick 2" />
                     </div>
                     <div className="trick-image-container">
-                        <h1>A 360 was created! It also shows us we have 27 tricks left to create.</h1>
+                        <h1 className="image-text" >A 360 was created! It also shows us we have 27 tricks left to create.</h1>
                         <img src={trick3} alt="trick 3" />
                     </div>
                     <div className="trick-image-container">
-                        <h1>Here we are choosing a sideflip as our first trick</h1>
+                        <h1 className="image-text" >Here we are choosing a sideflip as our first trick</h1>
                         <img src={trick4} alt="trick 4" />
                     </div>
                     <div className="trick-image-container">
-                        <h1>And we are using our newly created 360 as our second trick.</h1>
+                        <h1 className="image-text" >And we are using our newly created 360 as our second trick.</h1>
                         <img src={trick5} alt="trick 5" />
                     </div>
                     <div className="trick-image-container">
-                        <h1>A sideflip 360 has been created.</h1>
+                        <h1 className="image-text" >A sideflip 360 has been created.</h1>
                         <img src={trick6} alt="trick 6" />
                     </div>
                 </div>
