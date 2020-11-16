@@ -1,10 +1,6 @@
-body {
-    height: 100%;
-    width: 100%;
-}
 
 
-html { 
+body { 
   background: url('./Images/background-images/Background-image-orange.jpg') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -68,8 +64,7 @@ a {
 
 .image {
     height: 300px;
-    padding: 5px;
-    border: 3px solid #555;
+    border: 3px solid rgb(21, 21, 138);
 }
 
 .image-text {
@@ -94,7 +89,7 @@ a {
     width: 100%;
     margin: auto;
     padding: 20px;
-    border: 3px solid black;
+    border: 3px solid rgb(21, 21, 138);
 }
 
 .trick-summary {
